@@ -5,7 +5,7 @@
 		fetch="https://github.com/rizengt" />
 	
 	<remote name="Uni"
-		fetch="https://github.com/GhostMaster69-dev"/>
+		fetch="https://github.com/GhostMaster69-dev" />
 	
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />
@@ -17,7 +17,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
  
         <!-- remove hals-->
-	<remove-project name="android_hardware_qcom_audio"/>
+	<remove-project name="android_hardware_qcom_audio" />
 	<remove-project name="android_hardware_qcom_display" />
 	<remove-project name="android_hardware_qcom_media" />
 
