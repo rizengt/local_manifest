@@ -13,13 +13,13 @@
  	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" clone-depth="1" />
  
         <!-- remove hals-->
-	<remove-project name="LineageOS/android_hardware_qcom_audio" />
-	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<remove-project name="LineageoS/android_hardware_qcom_media" />
+	<remove-project name="android_hardware_qcom_audio" />
+	<remove-project name="android_hardware_qcom_display" />
+	<remove-project name="android_hardware_qcom_media" />
 
 	<!--clonehals-->
-	<project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="line" revision="lineage-18.1-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="line" revision="lineage-18.1-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="line" revision="lineage-18.1-caf-msm8996" />
+	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/audio" name="android_hardware_qcom_audio" remote="line" revision="eleven" />
+	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/display" name="android_hardware_qcom_display" remote="line" revision="eleven" />
+	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/media" name="android_hardware_qcom_media" remote="line" revision="eleven" />
 	
 </manifest>
