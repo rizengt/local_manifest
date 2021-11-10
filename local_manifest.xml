@@ -20,6 +20,6 @@
 	<!--clonehals-->
 	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/audio" name="android_hardware_qcom_audio" remote="line" revision="eleven" />
 	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/display" name="android_hardware_qcom_display" remote="line" revision="eleven" />
-	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/media" name="android_hardware_qcom_media" remote="line revision="eleven" />
+	<project path="PixelExperience/hardware/qcom-caf/msm8996-r/media" name="android_hardware_qcom_media" remote="line" revision="eleven" />
 
 </manifest>
